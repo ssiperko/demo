@@ -1,0 +1,16 @@
+body, html {
+  background-color: #222;
+  color: lighten(red, 20%);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hello {
+  font-size: 3em;
+}
