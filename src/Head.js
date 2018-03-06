@@ -11,8 +11,9 @@ export class Head extends React.Component{
                   <ul>
                       <li>Home</li>
                       <li>About</li>
-                      <li>Projects</li>
-                      <li>Prices</li>
+                      <li>Property</li>
+                      <li>Funding</li>
+                      <li>News</li>
                       <li>Contact</li>
                   </ul>
               </nav>
