@@ -10,7 +10,7 @@ export class Foot extends React.Component{
                 <h2><a className='footItems' href="mailto:steven@steven-siperko.space">E-mail: xyz@abc.com</a></h2>
             </div>
             <div className='subFoot'>
-                <h5 className="subFootItems">designed and coded by Steven Luke Siperko </h5> <h5 className="subFootItems"> copyright Kimmins Inc.</h5>
+                <h5 className="subFootItems">designed and coded by Steven Luke Siperko </h5> <h5 className="subFootItems"> copyright BlockPro Inc.</h5>
             </div>
         </div>
       );
