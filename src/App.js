@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import {Foot} from './Foot';
-import {Head} from './Head';
-import {Content} from './Content';
-import {Landing} from './Landing';
+import {Foot} from './Components/Foot';
+//import {Head} from './Components/Head';
+//import {Content} from './Components/Content';
+//import {Landing} from './Components/Landing';
+import {Main} from './Main';
 
 
 
@@ -12,9 +13,7 @@ class App extends Component {
   render() {
     return (
         <div>
-            <Landing />
-            <Head />
-            <Content />
+            <Main />
             <Foot />
         </div>
     );
