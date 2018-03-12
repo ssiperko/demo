@@ -1,10 +1,15 @@
 import React from 'react';
 import {Head} from './Head';
 
-export class Fun extends React.Component{
+export class Funding extends React.Component{
     render(){
       return(
-        <h1>funding</h1>
-      )
+        <div>
+            <Head />
+            <div className=''>
+                <h1>Contact</h1>
+            </div>
+        </div>
+      );
     }
 }

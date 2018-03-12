@@ -2,7 +2,7 @@ import React from 'react';
 import {Landing} from './Components/Landing';
 import {About} from './Components/About';
 import {Property} from './Components/Property';
-import {Fun} from './Components/Funding';
+import {Funding} from './Components/Funding';
 import {News} from './Components/News';
 import {Contact} from './Components/Contact';
 
@@ -17,7 +17,7 @@ export class Main extends React.Component {
                   <Route exact path = '/landing' component = {Landing}/>
                   <Route exact path = '/about' component = {About}/>
                   <Route exact path = '/property' component = {Property}/>
-                  <Route exact path ='./fun' component = {Fun} />
+                  <Route exact path ='./funding' component = {Funding} />
                   <Route exact path ='/news' component = {News} />
                   <Route exact path ='/contact' component = {Contact} />
               </Switch>
