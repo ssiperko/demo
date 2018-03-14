@@ -9,7 +9,7 @@ export class Carousel extends React.Component{
     console.log('left button clicked');
     const {carouselViewport} = this.refs;
     let numOfSlidesToScroll = 1;
-    let widthOfSlide= window.innerWidth * .177;
+    let widthOfSlide= window.innerWidth * .1825;
     let newPos = carouselViewport.scrollLeft - (widthOfSlide * numOfSlidesToScroll);
     let timeToMoveOneSlide = 200;
     let totalTimeToMove = Math.min((numOfSlidesToScroll * timeToMoveOneSlide), 400);
@@ -20,7 +20,7 @@ export class Carousel extends React.Component{
     console.log('right button clicked');
     const {carouselViewport} = this.refs;
     let numOfSlidesToScroll = 1;
-    let widthOfSlide= window.innerWidth * .177;
+    let widthOfSlide= window.innerWidth * .1825;
     let newPos = carouselViewport.scrollLeft + (widthOfSlide * numOfSlidesToScroll);
     let timeToMoveOneSlide = 200;
     let totalTimeToMove = Math.min((numOfSlidesToScroll * timeToMoveOneSlide), 400);

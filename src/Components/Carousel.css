@@ -61,8 +61,8 @@ body, html {
    padding-top: 6vh;
    vertical-align: top;
    border-right: 1px solid black;
-   height: 20vh;
-   width: 17.5vw;
+   height: 25vh;
+   width: 18vw;
    white-space: normal;
   /*temp style*/
   border: 1px solid grey;
@@ -107,4 +107,9 @@ body, html {
 .slideImage {
   max-height: 20vh;
   max-width: 17.5vw;
+}
+
+/*mobile styles*/
+@media screen and (max-width: 800px) {
+
 }
