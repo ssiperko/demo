@@ -1,0 +1,110 @@
+body, html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: black;
+  background-color: white;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photoContainer{
+  position: relative;
+  max-width: 100vw;
+  max-height: 80vh;
+  z-index: 100;
+  overflow:hidden;
+}
+
+.coverImage {
+  width: 100%;
+  height: 85%;
+  z-index: 100;
+  background: 50% 50% / cover;
+  z-index: 10;
+}
+
+.carouselContainer {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    max-height: 100vh;
+    margin-bottom: 10vh;
+}
+
+.carouselViewport {
+  border: 1px solid #333;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carouselViewport::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+   display: inline-block;
+   text-align: center;
+   padding-top: 6vh;
+   vertical-align: top;
+   border-right: 1px solid black;
+   height: 20vh;
+   width: 17.5vw;
+   white-space: normal;
+  /*temp style*/
+  border: 1px solid grey;
+}
+
+.slide:hover{
+
+}
+
+.slide:last-child {
+  border-right: none;
+}
+
+.carouselNav {
+  border: none;
+  background: none;
+  width: 5vw;
+  cursor: pointer;
+  flex-shrink: 0;
+  flex-basis: 5vw;
+  outline: none;
+  font-size: 3em;
+}
+
+.carouselNav:hover{
+  transform: scale(1.5);
+  transition: all .2s ease-in-out;
+}
+
+.carouselLeftNav{
+
+}
+
+.carouselRightNav{
+ color: black;
+}
+
+.photo {
+  margin-left: 25vw;
+}
+
+.slideImage {
+  max-height: 20vh;
+  max-width: 17.5vw;
+}

@@ -40,8 +40,8 @@ export class Head extends React.Component{
                           <li><Link to ='./landing'>Home</Link></li>
                           <li><Link to ='./about'>About</Link></li>
                           <li><Link to ='./property'>Property</Link></li>
-                          <li><Link to ='./funding'>Fun</Link></li>
                           <li><Link to ='./news'>News</Link></li>
+                          <li><Link to ='./funding'>Funding</Link></li>
                           <li><Link to ='./contact'>Contact</Link></li>
                       </ul>
                   </nav>
