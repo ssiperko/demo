@@ -158,16 +158,20 @@ body{
 
   .burger {
     z-index: 999;
-    background-color: pink;
+    background: none;
     position: fixed;
     top: 5%;
     left: 70%;
+    border: none;
+    outline: none;
   }
 
   .burgerBox{
-      height: 2px;
-      width: 20px;
+      height: 3px;
+      width: 25px;
       background-color: #fff;
+      margin: 1px 1px 1px 1px;
+      border: 1px solid black;
   }
 
   .photoContainer {
