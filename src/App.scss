@@ -146,6 +146,15 @@ body{
 .propertyHeadline {
   padding-left: 3vw;
 }
+
+.profileLeft {
+    display:flex;
+}
+
+.profileRight {
+
+}
+
 }
 
 // mobile styles
@@ -172,6 +181,7 @@ body{
       background-color: #fff;
       margin: 1px 1px 1px 1px;
       border: 1px solid black;
+
   }
 
   .photoContainer {
@@ -204,6 +214,10 @@ body{
 
   .headerHidden {
     visibility: hidden;
+  }
+
+  .headContainer {
+    height: 1vh;
   }
 
   .header h1{
