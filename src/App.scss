@@ -68,6 +68,47 @@ li {
   margin-top: -2px;
 }
 
+.pageHeadline {
+  text-align: center;
+  color: #236B8E;
+  font-size: 4em;
+  font-family: sans-serif;
+}
+
+.aboutContentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mission{
+  color: #ff6666;
+  margin-left: 5vw;
+}
+
+.who {
+  color: #ff6666;
+  margin-left: 5vw;
+}
+
+.aboutContent {
+  width: 35vw;
+  margin: 0px 5vw 5vw 5vw;
+  color: #236B8E;
+}
+
+.aboutCoverText {
+  font-size: 1em;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2em;
+  z-index: 200;
+  color: #fff;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+
+
 .photoContainer{
   position: relative;
   max-width: 100vw;
