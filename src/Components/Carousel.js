@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './data.json';
+import photos from './photos.json';
 import scrollTo from './animateScroll';
 import './Carousel.css';
 
@@ -28,11 +28,12 @@ export class Carousel extends React.Component{
   }
 
     render(){
-      const Slides =  data.map((state)=>{
+      console.log(photos);
+      const Slides =  photos.map((state)=>{
               return(
-                  <div className='slide' key={state.abbreviation}>
+                  <div className='slide' key={state.key}>
                     <a target="_blank" href={state.link}>
-                    <img className="slideImage" src={state.name} />
+                    <img className="slideImage" src= {require(`${state.name}`) } />
                     </ a>
                 </div>
               )

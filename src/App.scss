@@ -194,14 +194,35 @@ li {
   padding-left: 3vw;
 }
 
-.profileLeft {
-    display:flex;
+.google-map {
+  height: 80vh;
+  width: 100vw;
 }
 
-.profileRight {
-
+.contactPhotoContainer {
+  display:absolute;
+  width: 100vw;
 }
 
+.contactPhoto {
+  width: 100vw;
+  height: 50vh;
+}
+
+.contactCoverText{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  z-index: 100;
+  color: white;
+  font-size: 2.5em;
+}
+
+.contactHeadline {
+  text-align: center;
+  font-size: 1em;
+  padding: 5vh;
+}
 }
 
 // mobile styles
