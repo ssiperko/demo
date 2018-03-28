@@ -105,6 +105,17 @@ body, html {
   max-width: 30vw;
 }
 
+button{
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: all 300ms ease-in-out;
+}
+
 /*mobile styles*/
 @media screen and (max-width: 800px) {
   .carouselLeftNav{

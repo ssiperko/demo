@@ -4,6 +4,13 @@ import scrollTo from './animateScroll';
 import './Carousel.css';
 
 export class Carousel extends React.Component{
+  constructor(props){
+    super(props);
+    this.state={
+      name: 'luke'
+    };
+
+  }
 
   handle_leftNav(){
     console.log('left button clicked');
@@ -27,14 +34,18 @@ export class Carousel extends React.Component{
     scrollTo(carouselViewport, newPos, totalTimeToMove, 'scrollLeft');
   }
 
+onPhotoUpdate(e){
+    this.props.photoUpdate(e.currentTarget.value);
+}
+
     render(){
-      console.log(photos);
-      const Slides =  photos.map((state)=>{
+
+      const Slides =  photos.map((img)=>{
               return(
-                  <div className='slide' key={state.key}>
-                    <a target="_blank" href={state.link}>
-                    <img className="slideImage" src= {require(`${state.name}`) } />
-                    </ a>
+                  <div className='slide' key={img.key}>
+                    <button value={img.name} onClick={this.onPhotoUpdate.bind(this)}>
+                    <img  className="slideImage" src= {require(`${img.name}`) } />
+                    </ button>
                 </div>
               )
             });
