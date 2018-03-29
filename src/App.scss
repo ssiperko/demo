@@ -1,9 +1,14 @@
-body{
+body, html{
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  text-decoration: none;
+  text-decoration: none !important;
   //overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+  color: #333;
 }
 
 li {
@@ -252,6 +257,36 @@ li {
 .propertyContent{
   padding: 10vw;
   padding-top: 0;
+}
+
+.expert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: cornflowerblue;
+}
+
+.expertInfo2 {
+  text-align: center;
+}
+
+.expertInfo {
+  display: flex;
+  align-items: center;
+  color: cornflowerblue !important;
+  text-decoration: none;
+}
+
+.icon{
+  font-size: 2em;
+  color: cornflowerblue;
+  padding-right: 2vw;
+  padding-left: 5vw;
+}
+
+h3 {
+  text-decoration: none !important;
 }
 }
 

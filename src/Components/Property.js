@@ -46,6 +46,14 @@ export class Property extends React.Component{
               </p>
           </div>
           <Map />
+          <hr />
+          <div className="expert">
+              <h2 className="expertInfo2">Want to know more? <br /> Reach out to a property expert.</h2>
+              <h1 className="expertInfo2"> Jodi Collins</h1>
+              <span className="expertInfo"><i className="fa fa-envelope icon"></i><a href="mailto:jodi@greatlakesre.com"><h3>jodi@greatlakesre.com</h3></a>
+              <i className="fa fa-phone icon"></i><h3>(716) 417-0271</h3> </span>
+          </div>
+          <hr />
       </div>
     );
   }
