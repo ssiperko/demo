@@ -8,7 +8,7 @@ export class Property extends React.Component{
     super(props);
 
     this.state={
-      name: "./photos/256-3rdSt01 (2).jpg"
+      name: "./photos/256-3rdSt01.jpg"
     };
 
   }

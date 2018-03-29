@@ -1,6 +1,6 @@
 [
 {
-"name": "./photos/256-3rdSt01 (2).jpg",
+"name": "./photos/256-3rdSt01.jpg",
 "key": 1
 },
 {
@@ -8,11 +8,11 @@
 "key": 2
 },
 {
-"name": "./photos/256-3rdSt08.jpg",
+"name": "./photos/256-3rdSt06.jpg",
 "key": 3
 },
 {
-"name": "./photos/256-3rdSt10.jpg",
+"name": "./photos/256-3rdSt08.jpg",
 "key": 4
 },
 {
@@ -20,27 +20,67 @@
 "key": 5
 },
 {
-"name": "./photos/256-3rdSt01 (2).jpg",
-"key": 1
-},
-{
-"name": "./photos/256-3rdSt05.jpg",
-"key": 2
-},
-{
-"name": "./photos/256-3rdSt08.jpg",
-"key": 3
-},
-{
-"name": "./photos/256-3rdSt10.jpg",
-"key": 4
-},
-{
-"name": "./photos/256-3rdSt17.jpg",
-"key": 5
+"name": "./photos/256-3rdSt18.jpg",
+"key": 6
 },
 {
 "name": "./photos/256-3rdSt19.jpg",
-"key": 6
+"key": 7
+},
+{
+"name": "./photos/256-3rdSt20.jpg",
+"key": 8
+},
+{
+"name": "./photos/256-3rdSt21.jpg",
+"key": 9
+},
+{
+"name": "./photos/256-3rdSt22.jpg",
+"key": 10
+},
+{
+"name": "./photos/256-3rdSt23.jpg",
+"key": 11
+},
+{
+"name": "./photos/256-3rdSt25.jpg",
+"key": 12
+},
+{
+"name": "./photos/256-3rdSt26.jpg",
+"key": 13
+},
+{
+"name": "./photos/256-3rdSt27.jpg",
+"key": 14
+},
+{
+"name": "./photos/256-3rdSt30.jpg",
+"key": 15
+},
+{
+"name": "./photos/256-3rdSt34.jpg",
+"key": 16
+},
+{
+"name": "./photos/256-3rdSt35.jpg",
+"key": 17
+},
+{
+"name": "./photos/256-3rdSt36.jpg",
+"key": 18
+},
+{
+"name": "./photos/256-3rdSt39.jpg",
+"key": 19
+},
+{
+"name": "./photos/256-3rdSt41.jpg",
+"key": 20
+},
+{
+"name": "./photos/256-3rdSt43.jpg",
+"key": 21
 }
 ]
