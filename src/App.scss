@@ -8,22 +8,19 @@ body, html{
 
 a {
   text-decoration: none !important;
-  color: #333;
+  color: #236B8E;
 }
 
-li {
-  color: #333;
-  text-decoration: none;
-}
 
 // desktop styles
 @media screen and (min-width: 800px) {
+//header
 .headContainer {
   position: sticky;
   top: 0;
   left: 0;
   text-decoration: none;
-  color: #333;
+  color: #696969;
   z-index: 999;
 }
  .nav {
@@ -47,6 +44,7 @@ li {
   display: flex;
   margin-left: 20%;
   z-index: 999;
+  color: #696969
 }
 
 .nav ul li {
@@ -254,9 +252,14 @@ li {
   padding: 5vh;
 }
 
+// porperty page
 .propertyContent{
   padding: 10vw;
   padding-top: 0;
+}
+
+.expertContact {
+  margin-top: 4vh;
 }
 
 .expert {
@@ -264,7 +267,7 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: cornflowerblue;
+  color: #236B8E;
 }
 
 .expertInfo2 {
@@ -274,19 +277,15 @@ li {
 .expertInfo {
   display: flex;
   align-items: center;
-  color: cornflowerblue !important;
+  color: #236B8E;
   text-decoration: none;
 }
 
 .icon{
   font-size: 2em;
-  color: cornflowerblue;
+  color: #236B8E;
   padding-right: 2vw;
   padding-left: 5vw;
-}
-
-h3 {
-  text-decoration: none !important;
 }
 }
 

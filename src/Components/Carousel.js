@@ -15,8 +15,8 @@ export class Carousel extends React.Component{
   handle_leftNav(){
     console.log('left button clicked');
     const {carouselViewport} = this.refs;
-    let numOfSlidesToScroll = 1;
-    let widthOfSlide= (window.innerWidth * .3) * 3;
+    let numOfSlidesToScroll = 6;
+    let widthOfSlide= (window.innerWidth * .1009) ;
     let newPos = carouselViewport.scrollLeft - (widthOfSlide * numOfSlidesToScroll);
     let timeToMoveOneSlide = 200;
     let totalTimeToMove = Math.min((numOfSlidesToScroll * timeToMoveOneSlide), 400);
@@ -26,8 +26,8 @@ export class Carousel extends React.Component{
   handle_rightNav(){
     console.log('right button clicked');
     const {carouselViewport} = this.refs;
-    let numOfSlidesToScroll = 1;
-    let widthOfSlide= (window.innerWidth * .3) * 3;
+    let numOfSlidesToScroll = 6;
+    let widthOfSlide= (window.innerWidth * .1009);
     let newPos = carouselViewport.scrollLeft + (widthOfSlide * numOfSlidesToScroll);
     let timeToMoveOneSlide = 200;
     let totalTimeToMove = Math.min((numOfSlidesToScroll * timeToMoveOneSlide), 400);

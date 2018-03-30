@@ -48,6 +48,7 @@ body, html {
   overflow-y: hidden;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  max-width: 60vw;
 }
 
 .carouselViewport::-webkit-scrollbar {
@@ -59,7 +60,7 @@ body, html {
    text-align: center;
    padding-top: 6vh;
    vertical-align: top;
-   height: 20vh;
+   height: 19vh;
    width: 10vw;
    white-space: normal;
 }
@@ -114,6 +115,7 @@ button{
 button:hover{
   transform: scale(1.5);
   transition: all 300ms ease-in-out;
+  cursor: pointer;
 }
 
 /*mobile styles*/
