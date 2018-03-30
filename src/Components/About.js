@@ -21,7 +21,7 @@ export class About extends React.Component{
               <div>
                   <h1 className="mission">Our Mission</h1>
                   <p className="aboutContent">
-                    "As the landscape for cryptocurrency mining becomes more and more saturated, do you have the tools necessary to stay ahead of the competition? BlockPro can make sure you have the facilities, the tools, and the computing power you need to solve complex cryptography and generate cryptocurrency. "
+                    "As the landscape for cryptocurrency mining becomes more and more saturated, BlockPro is dedicated to making sure you stay ahead of the competition by providing the facilities,  tools, and computing power you need to solve complex cryptography and generate cryptocurrency. "
                   </p>
                   <h1 className="mission">What we do for you</h1>
                   <p className="aboutContent">
