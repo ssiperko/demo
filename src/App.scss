@@ -175,14 +175,25 @@ a {
     height: 250px;
     background-color: #333;
     color: #7e7e7e;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: .8em;
 }
 
 .footItems {
   text-decoration: none;
   color: #7e7e7e;
-  &:hover{
-      color: #a0f7a0
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3vw;
+  font-size: .8em;
+}
+
+.footLogo {
+  font-size: 2em;
 }
 
 .subFoot{
@@ -289,6 +300,12 @@ a {
   color: #236B8E;
   padding-right: 2vw;
   padding-left: 5vw;
+}
+
+.footIcon{
+  font-size: 2em;
+  color: #236B8E;
+  margin-right: 2vw;
 }
 }
 
