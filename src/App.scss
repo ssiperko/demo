@@ -8,7 +8,7 @@ body, html{
 
 a {
   text-decoration: none !important;
-  color: #236B8E;
+  color: #333;
 }
 
 
@@ -73,7 +73,7 @@ a {
 
 .pageHeadline {
   text-align: center;
-  color: #236B8E;
+  color: #333;
   font-size: 4em;
   font-family: sans-serif;
 }
@@ -86,14 +86,14 @@ a {
 }
 
 .aboutHeadline {
-  color: #ff6666;
+  color: #333;
   text-align: center;
 }
 
 .aboutContent {
   width: 70vw;
   margin: 0px 5vw 5vw 5vw;
-  color: #236B8E;
+  color: #333;
 }
 
 .aboutCoverText {
@@ -227,7 +227,7 @@ a {
 
 .propertyHeadline {
   text-align: center;
-  color: #ff6666;
+  color: #333;
 }
 
 .features{
@@ -254,7 +254,7 @@ a {
   top: 30%;
   left: 40%;
   z-index: 100;
-  color: white;
+  color: #fff;
   font-size: 2.5em;
 }
 
@@ -268,7 +268,9 @@ a {
 .propertyContent{
   padding: 0vh 10vw 5vh 10vw;
   width: 70vw;
-  color: #236B8E;
+  color: #333;
+  text-align: center;
+  margin: auto;
 
 }
 
@@ -281,7 +283,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #236B8E;
+  color: #333;
 }
 
 .expertInfo2 {
@@ -291,20 +293,20 @@ a {
 .expertInfo {
   display: flex;
   align-items: center;
-  color: #236B8E;
+  color: #333;
   text-decoration: none;
 }
 
 .icon{
   font-size: 2em;
-  color: #236B8E;
+  color: #333;
   padding-right: 2vw;
   padding-left: 5vw;
 }
 
 .footIcon{
   font-size: 2em;
-  color: #236B8E;
+  color: #333;
   margin-right: 2vw;
 }
 }
