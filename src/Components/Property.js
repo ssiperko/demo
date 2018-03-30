@@ -34,14 +34,14 @@ export class Property extends React.Component{
               <Carousel photoUpdate={this.updateCoverPhoto.bind(this)} />
           </div>
           <div className="propertyContent">
-              <h2> The Property </h2>
+              <h2 className="propertyHeadline"> The Property </h2>
               <p>Upstate Realty Associates is pleased to offer a built-to-suit, customizable real estate solution for your operational needs. We understand that every business has unique needs and provide ample power and space for you to quickly scale your environments as your business needs change. Spaces can be customized to fit your company’s personality, culture, and needs. With 1MW of electrical power running through the property and unlimited fiber optic cable installed in the building, this space is the ideal place to operate businesses such as data centers, crypto currency mining centers, and tech centers. In addition to its great location, Niagara Falls is home to cheap electricity and offers an excellent opportunity for businesses that consume vast amount of energy to operate economically. The average commercial electricity rate in Niagara Falls is 5.99¢/kWh, which is 40.63% less than the national average rate of 10.09¢/kWh.
               </p>
-              <h2>Location</h2>
+              <h2 className="propertyHeadline">Location</h2>
               <p>Located in the centre of downtown Niagara Falls, the 256 3rd St property is just moments from the Canadian border, Robert Moses Parkway and NYS Thruway. Located directly across from the Seneca Niagara Casino and a block from the Niagara Falls Convention Center and Niagara Falls Culinary Institute, provides tenants with the opportunity to be in the center of business deals and transactions.
               </p>
-              <h2>Features</h2>
-              <p>- 1mw electrical power <br /> - Unlimited fiber optic cable <br />  - Power at US 5.99¢/ kWh <br />- Fully customizable space <br />  - Excellent location
+              <h2 className="propertyHeadline">Features</h2>
+              <p className="features">- 1mw electrical power <br /> - Unlimited fiber optic cable <br />  - Power at US 5.99¢/ kWh <br />- Fully customizable space <br />  - Excellent location
 
               </p>
           </div>

@@ -81,21 +81,17 @@ a {
 .aboutContentContainer {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
 
-.mission{
+.aboutHeadline {
   color: #ff6666;
-  margin-left: 5vw;
-}
-
-.who {
-  color: #ff6666;
-  margin-left: 5vw;
+  text-align: center;
 }
 
 .aboutContent {
-  width: 35vw;
+  width: 70vw;
   margin: 0px 5vw 5vw 5vw;
   color: #236B8E;
 }
@@ -219,7 +215,12 @@ a {
 }
 
 .propertyHeadline {
-  padding-left: 3vw;
+  text-align: center;
+  color: #ff6666;
+}
+
+.features{
+  text-align: center;
 }
 
 .google-map {
@@ -254,8 +255,10 @@ a {
 
 // porperty page
 .propertyContent{
-  padding: 10vw;
-  padding-top: 0;
+  padding: 0vh 10vw 5vh 10vw;
+  width: 70vw;
+  color: #236B8E;
+
 }
 
 .expertContact {
