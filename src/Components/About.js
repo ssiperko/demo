@@ -6,10 +6,12 @@ export class About extends React.Component{
     return(
       <div>
           <Head />
-          <div className='photoContainer'>
-              <h1 className='aboutCoverText'>“Every informed person needs to know about Bitcoin because it might be one of the world’s most important developments.” -Leon Luow, Nobel Prize Nominee</h1>
-              <img className='coverImage' src="https://gcn.com/~/media/GIG/GCN/Redesign/Articles/2017/April/blockchain2.png" alt='niagra falls' />
-          </div>
+          <div className='photoContainerContainer'>
+              <div className='photoContainer'>
+                  <h1 className='aboutCoverText'>“Every informed person needs to know about Bitcoin because it might be one of the world’s most important developments.” -Leon Luow, Nobel Prize Nominee</h1>
+                  <img className='coverImage' src="https://gcn.com/~/media/GIG/GCN/Redesign/Articles/2017/April/blockchain2.png" alt='niagra falls' />
+              </div>
+            </div>
               <h1 className="pageHeadline">About us</h1>
                   <div className="aboutContentContainer">
                   <h1 className="aboutHeadline">Our Mission</h1>

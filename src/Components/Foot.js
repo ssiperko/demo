@@ -12,8 +12,14 @@ export class Foot extends React.Component{
                     <h1 className="footLogo">Company Logo</h1>
                 </div>
                 <div className='footItems'>
-                    <a href="facetime:4079139425"><i className="fa fa-phone footIcon"></i></a>
-                    <a href="mailto:blockprocapital@gmail.com"><i className="fa fa-envelope footIcon"></i></a>
+                    <div className="footPhone">
+                        <a href="facetime:4079139425"><i className="fa fa-phone footIcon"></i></a>
+                        <h3>(407) 913-9425</h3>
+                    </div>
+                    <div className="footEmail"> 
+                        <a href="mailto:blockprocapital@gmail.com"><i className="fa fa-envelope footIcon"></i></a>
+                        <h3>blockprocapital@gmail.com</h3>
+                    </div>
                 </div>
             </div>
             <div className='subFoot'>
