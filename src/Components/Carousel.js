@@ -43,7 +43,7 @@ onPhotoUpdate(e){
       const Slides =  photos.map((img)=>{
               return(
                   <div className='slide' key={img.key}>
-                    <button value={img.name} onClick={this.onPhotoUpdate.bind(this)}>
+                    <button className='Carouselbutton' value={img.name} onClick={this.onPhotoUpdate.bind(this)}>
                     <img  className="slideImage" src= {require(`${img.name}`) } />
                     </ button>
                 </div>

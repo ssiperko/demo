@@ -106,13 +106,13 @@ body, html {
   max-width: 10vw;
 }
 
-button{
+.Carouselbutton{
   background: none;
   border: none;
   outline: none;
 }
 
-button:hover{
+.Carouselbutton:hover{
   transform: scale(1.5);
   transition: all 300ms ease-in-out;
   cursor: pointer;
